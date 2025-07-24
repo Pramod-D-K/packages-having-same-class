@@ -12,6 +12,8 @@ public class Main {
         System.out.println(obj4.a);
         p2.A.B obj5 = obj4.new B();
         p2.A.B.C obj6 = obj5.new C();
+        System.out.println(obj6.c);
+
 
     }
 }

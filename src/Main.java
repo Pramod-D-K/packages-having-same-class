@@ -5,7 +5,7 @@ public class Main {
     public static void main(String args[]){
         A obj1 = new A();
         System.out.println(obj1.a);
-        A.B obj2 = obj1.new B();
+        A.B obj2 = new A().new B();
         A.B.C obj3 = obj2.new C();
 
         p2.A obj4 = new p2.A();
